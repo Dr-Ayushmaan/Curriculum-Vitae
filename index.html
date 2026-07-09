@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Ayushmaan Thakur | BDS Intern Portfolio</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0d9488', // Teal 600
+                        primaryDark: '#0f766e',
+                        lightBg: '#f0fdfa', // Teal 50
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-primary selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md shadow-sm z-50 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <i class="fa-solid fa-tooth text-primary text-2xl"></i>
+                    <span class="font-bold text-xl tracking-tight text-slate-900">Dr. Ayushmaan Thakur</span>
+                </div>
+                <div class="hidden md:flex space-x-6 lg:space-x-8">
+                    <a href="#about" class="text-slate-600 hover:text-primary transition font-medium">About</a>
+                    <a href="#clinical" class="text-slate-600 hover:text-primary transition font-medium">Clinical</a>
+                    <a href="#research" class="text-slate-600 hover:text-primary transition font-medium">Research</a>
+                    <a href="#education" class="text-slate-600 hover:text-primary transition font-medium">Education</a>
+                    <a href="#contact" class="px-4 py-2 rounded-full bg-primary text-white hover:bg-primaryDark transition font-medium">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 md:pt-40 md:pb-28 px-4 max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
+        <div class="flex-1 text-center md:text-left">
+            <span class="inline-block py-1 px-3 rounded-full bg-lightBg text-primary font-semibold text-sm mb-4 border border-teal-100">
+                BDS Intern | SRF Treasurer 2026
+            </span>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
+                Crafting healthy, <br>
+                <span class="text-primary">beautiful smiles.</span>
+            </h1>
+            <p class="text-lg text-slate-600 mb-8 max-w-lg mx-auto md:mx-0">
+                BDS Intern at MCODS Manipal dedicated to comprehensive patient care, with a keen eye for financial detail and resource management. 
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <a href="#contact" class="px-8 py-3 rounded-full bg-primary text-white font-semibold hover:bg-primaryDark transition shadow-lg shadow-teal-500/30">
+                    Get in Touch
+                </a>
+                <a href="#" class="px-8 py-3 rounded-full bg-white text-slate-700 font-semibold border border-slate-200 hover:border-primary hover:text-primary transition">
+                    Download Resume
+                </a>
+            </div>
+            
+            <div class="mt-10 flex items-center justify-center md:justify-start gap-6 text-slate-500">
+                <a href="mailto:ayushmaan.thakur@learner.manipal.edu" class="hover:text-primary text-xl transition" title="University Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="mailto:ayushmaan0392@gmail.com" class="hover:text-primary text-xl transition" title="Personal Email"><i class="fa-regular fa-envelope"></i></a>
+                <a href="tel:+917603054332" class="hover:text-primary text-xl transition"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+        
+        <div class="flex-1 flex justify-center md:justify-end">
+            <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white shadow-2xl overflow-hidden bg-slate-200">
+                <!-- Change this link below to your actual photo URL -->
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dr. Ayushmaan Thakur" class="object-cover w-full h-full" onerror="this.src='https://via.placeholder.com/400x400?text=Your+Photo'">
+                <div class="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">About Me</h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 text-slate-600 leading-relaxed text-lg">
+                    <p>
+                        I am a final-year BDS intern at <strong>Manipal College of Dental Sciences, Manipal</strong> (Batch 2021). My journey in dentistry is driven by a deep commitment to clinical excellence and a passion for managing academic and professional resources.
+                    </p>
+                    <p>
+                        My background in diligent planning—from structuring long-term academic goals to managing personal investments—translates directly into the accountability required for my role as SRF Treasurer. I am dedicated to optimizing funding to elevate the Student Research Forum's initiatives, having previously shadowed seniors during the early years of the Manipal Dental Conference.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center">
+                        <i class="fa-solid fa-notes-medical text-3xl text-primary mb-3"></i>
+                        <h3 class="font-bold text-2xl text-slate-900">9</h3>
+                        <p class="text-sm text-slate-500">Clinical Rotations</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center">
+                        <i class="fa-solid fa-award text-3xl text-primary mb-3"></i>
+                        <h3 class="font-bold text-2xl text-slate-900">15</h3>
+                        <p class="text-sm text-slate-500">Camps Attended</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center">
+                        <i class="fa-solid fa-microscope text-3xl text-primary mb-3"></i>
+                        <h3 class="font-bold text-2xl text-slate-900">2</h3>
+                        <p class="text-sm text-slate-500">Ongoing Researches</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center">
+                        <i class="fa-solid fa-chart-pie text-3xl text-primary mb-3"></i>
+                        <h3 class="font-bold text-2xl text-slate-900">2026</h3>
+                        <p class="text-sm text-slate-500">SRF Treasurer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section (NEW) -->
+    <section id="research" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Ongoing Research</h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Research 1 -->
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-primary transition">
+                    <div class="flex items-center gap-4 mb-4">
+                        <i class="fa-solid fa-dna text-3xl text-primary"></i>
+                        <h3 class="font-bold text-lg leading-tight">Evaluation of MCM3 Expression and Nuclear Morphometry in Exophytic Verrucous Lesions in Oral Submucous Fibrosis</h3>
+                    </div>
+                    <p class="text-slate-300 text-sm mt-4">
+                        <span class="text-primary font-semibold">Started:</span> 3rd Year BDS <br>
+                        <span class="text-primary font-semibold">Under the guidance of:</span> Dr. Raghu Radhakrishnan & Dr. Smitha Sammith Shetty
+                    </p>
+                </div>
+
+                <!-- Research 2 -->
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-primary transition">
+                    <div class="flex items-center gap-4 mb-4">
+                        <i class="fa-solid fa-tooth text-3xl text-primary"></i>
+                        <h3 class="font-bold text-lg leading-tight">Mandibular Second Molar Impaction in Indian Population: Prevalence, Associated Dental Anomalies, and Role of Third Molars</h3>
+                    </div>
+                    <p class="text-slate-300 text-sm mt-4">
+                        <span class="text-primary font-semibold">Under the guidance of:</span> Dr. Anupam Singh, Dr. Komal Smriti, Dr. P Kalyana Chakravarty, & Dr. Srikant G.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinical Experience -->
+    <section id="clinical" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Clinical Rotations</h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Experience Cards -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-lg text-slate-900 mb-1"><i class="fa-solid fa-earth-asia text-primary mr-2"></i> Public Health Dentistry</h3>
+                    <p class="text-sm text-slate-500 font-medium mb-3">3 Months</p>
+                    <p class="text-sm text-slate-600">Community outreach, epidemiological surveys, and providing preventive dental care in rural settings.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-lg text-slate-900 mb-1"><i class="fa-solid fa-syringe text-primary mr-2"></i> Oral & Maxillofacial Surgery</h3>
+                    <p class="text-sm text-slate-500 font-medium mb-3">1.5 Months</p>
+                    <p class="text-sm text-slate-600">Local anesthesia, uncomplicated extractions, and assisting in major surgical procedures and impactions.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-lg text-slate-900 mb-1"><i class="fa-solid fa-teeth text-primary mr-2"></i> Prosthodontics</h3>
+                    <p class="text-sm text-slate-500 font-medium mb-3">1.5 Months</p>
+                    <p class="text-sm text-slate-600">Fabrication of complete dentures, RPDs, impression making, and crown preparations.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-lg text-slate-900 mb-1"><i class="fa-solid fa-tooth text-primary mr-2"></i> Cons & Endodontics</h3>
+                    <p class="text-sm text-slate-500 font-medium mb-3">1 Month</p>
+                    <p class="text-sm text-slate-600">Composite restorations, anterior root canal treatments, and rubber dam isolation.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-lg text-slate-900 mb-1"><i class="fa-solid fa-child text-primary mr-2"></i> Pedo, Perio & Ortho</h3>
+                    <p class="text-sm text-slate-500 font-medium mb-3">1 Month Each</p>
+                    <p class="text-sm text-slate-600">Child behavior management, scaling/root planing, and assisting in orthodontic bracket placements.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-lg text-slate-900 mb-1"><i class="fa-solid fa-x-ray text-primary mr-2"></i> OMR & Oral Pathology</h3>
+                    <p class="text-sm text-slate-500 font-medium mb-3">1 Month Each</p>
+                    <p class="text-sm text-slate-600">Radiograph interpretation (IOPA, OPG), oral lesion diagnosis, and histopathological slide interpretation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education, Achievements, Experience Section -->
+    <section id="education" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Left Column -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-8 text-slate-900">Education</h2>
+                    <div class="relative border-l-2 border-primary/30 ml-3 space-y-8 mb-12">
+                        <div class="relative pl-8">
+                            <div class="absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-1"></div>
+                            <h3 class="text-lg font-bold text-slate-900">Bachelor of Dental Surgery (BDS)</h3>
+                            <p class="text-primary font-medium mb-1">Manipal College of Dental Sciences, Manipal</p>
+                            <p class="text-slate-500 text-sm mb-2">Batch 2021 | Expected Completion: Feb 2027</p>
+                            <p class="text-slate-600 text-sm">Currently completing mandatory rotatory internship.</p>
+                        </div>
+                        <div class="relative pl-8">
+                            <div class="absolute w-4 h-4 bg-slate-300 rounded-full -left-[9px] top-1"></div>
+                            <h3 class="text-lg font-bold text-slate-900">High School (Class X & XII)</h3>
+                            <p class="text-primary font-medium mb-1">BDM International, Kolkata</p>
+                            <p class="text-slate-500 text-sm mb-2">Science Stream (PCMB)</p>
+                            <p class="text-slate-600 text-sm">Physics, Chemistry, Mathematics, and Biology.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="text-2xl font-bold mb-6 text-slate-900">Leadership & Experience</h2>
+                    <ul class="space-y-4">
+                        <li class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                            <h4 class="font-bold text-slate-800">SRF Treasurer (2026)</h4>
+                            <p class="text-sm text-slate-600">Financial council and committee management for the Student Research Forum.</p>
+                        </li>
+                        <li class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                            <h4 class="font-bold text-slate-800">Finance Committee</h4>
+                            <p class="text-sm text-slate-600">MDC 2024 & Volunteer for HUES 17.</p>
+                        </li>
+                        <li class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                            <h4 class="font-bold text-slate-800">Volunteer</h4>
+                            <p class="text-sm text-slate-600">DENTATHLON 2025.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right Column -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-6 text-slate-900">Academic Achievements</h2>
+                    <div class="bg-lightBg p-6 rounded-xl border border-teal-100 mb-10">
+                        <ul class="space-y-4 text-slate-700 text-sm">
+                            <li class="flex gap-3"><i class="fa-solid fa-star text-primary mt-1"></i> <div><strong>Passed with Distinction:</strong> 1st Year, 2nd Year, and Final Year Part 1.</div></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-check-circle text-primary mt-1"></i> <div><strong>Passed with First Class:</strong> 3rd Year (74%) and Final Year Part 2.</div></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-trophy text-primary mt-1"></i> <div><strong>3rd Place</strong> in Pharmacology (2nd Year BDS).</div></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-trophy text-primary mt-1"></i> <div><strong>3rd Place</strong> in General Medicine (3rd Year BDS).</div></li>
+                        </ul>
+                    </div>
+
+                    <h2 class="text-2xl font-bold mb-6 text-slate-900">Co-curricular & Workshops</h2>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 rounded-lg text-sm font-medium shadow-sm">MSSP Implant Workshop</span>
+                        <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 rounded-lg text-sm font-medium shadow-sm">IFAD Workshop</span>
+                        <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 rounded-lg text-sm font-medium shadow-sm">Eco Club: Trash to Treasure</span>
+                        <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 rounded-lg text-sm font-medium shadow-sm">Western Dance (HUES)</span>
+                        <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 rounded-lg text-sm font-medium shadow-sm">Chess, Football, Basketball (DENTATHLON)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-slate-900 py-16 text-white border-t-4 border-primary">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
+            <p class="text-slate-400 mb-8 max-w-lg mx-auto">
+                Whether you want to discuss clinical opportunities, research collaborations, or financial resource management, feel free to reach out.
+            </p>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-10">
+                <a href="mailto:ayushmaan.thakur@learner.manipal.edu" class="flex items-center gap-3 bg-slate-800 px-6 py-3 rounded-full ho
